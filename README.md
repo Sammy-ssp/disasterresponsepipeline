@@ -36,8 +36,8 @@ The project should run with libraries included in the Anaconda distribution. Fol
 
 App folder contains the following:
 - templates: Folder containing
--   master.html: Renders homepage
--   go.html: Renders the message classifier
+    - master.html: Renders homepage
+    - go.html: Renders the message classifier
 - run.py: Defines the app routes
 
 Data folder contains the following:
