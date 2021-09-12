@@ -30,6 +30,7 @@ The project should run with libraries included in the Anaconda distribution. Fol
   - matplotlib 0.8.4
   - seaborn 0.10.0
   - scikit-learn 0.24.2
+  - nltk 3.6.2
 
 
 ## Files in the Repository <a name="filesintherepository"></a>
@@ -43,12 +44,12 @@ App folder contains the following:
 Data folder contains the following:
 - disaster_categories.csv: contains the disaster categories csv file
 - disaster_messages.csv: contains the disaster messages csv file
-- DisasterResponse.db: contains the emergency db which is a merge of categories and messages by ID
+- DisasterResponse.db: contains the emergency db (merge of categories and messages by ID)
 - process_data.py: contains the scripts to transform data
 
 Models folder contains the following:
-- random_forest.pkl: contains the RandomForestClassifier pickle file
-- train_classifier.py: script to train ml_ipeline.py
+- classifier.pkl: contains the RandomForestClassifier pickle file
+- train_classifier.py: script to train pipeline
 
 ## Results <a name="results"></a>
 
