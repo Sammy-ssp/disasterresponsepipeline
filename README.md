@@ -34,19 +34,21 @@ The project should run with libraries included in the Anaconda distribution. Fol
 
 ## Files in the Repository <a name="filesintherepository"></a>
 
-- app folder contains the following:
+App folder contains the following:
 - templates: Folder containing
-- index.html: Renders homepage
-- go.html: Renders the message classifier
+-   master.html: Renders homepage
+-   go.html: Renders the message classifier
 - run.py: Defines the app routes
-- data folder contains the following:
-disaster_categories.csv: contains the disaster categories csv file
-disaster_messages.csv: contains the disaster messages csv file
-DisasterResponse.db: contains the emergency db which is a merge of categories and messages by ID
-process_data.py: contains the scripts to transform data
-models folder contains the following:
-random_forest.pkl: contains the RandomForestClassifier pickle file
-train_classifier.py: script to train ml_ipeline.py
+
+Data folder contains the following:
+- disaster_categories.csv: contains the disaster categories csv file
+- disaster_messages.csv: contains the disaster messages csv file
+- DisasterResponse.db: contains the emergency db which is a merge of categories and messages by ID
+- process_data.py: contains the scripts to transform data
+
+Models folder contains the following:
+- random_forest.pkl: contains the RandomForestClassifier pickle file
+- train_classifier.py: script to train ml_ipeline.py
 
 ## Results <a name="results"></a>
 
