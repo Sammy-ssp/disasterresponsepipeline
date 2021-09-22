@@ -6,8 +6,9 @@
 1. [Project Motivation](#motivation)
 2. [Requirements](#requirements)
 3. [Files in the Repository](#filesintherepository)
-4. [Results](#results)
-5. [Acknowledgements](#acknowledgements)
+4. [Run the web app](#webapp)
+5. [Results](#results)
+6. [Acknowledgements](#acknowledgements)
 
 
 ## Project Motivation <a name="motivation"></a>
@@ -50,6 +51,23 @@ Data folder contains the following:
 Models folder contains the following:
 - classifier.pkl: contains the RandomForestClassifier pickle file
 - train_classifier.py: script to train pipeline
+
+## Run the web app <a name="webapp"></a>
+1. Run the following commands in the project's root directory to set up your database and model.
+
+	a) To run ETL pipeline that cleans data and stores in database
+
+		`$ python data/process_data.py data/messages.csv data/categories.csv data/DisasterResponse.db`
+	
+	b) To run ML pipeline that trains classifier and saves
+
+		`$ python models/train-classifier.py data/DisasterResponse.db model/classifier.pkl`
+
+2. Run the following command in the app's directory to run your web app. 
+
+	`$ python run.py`
+
+3. Go to localhost:5000/
 
 ## Results <a name="results"></a>
 
